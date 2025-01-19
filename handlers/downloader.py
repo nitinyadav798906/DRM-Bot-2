@@ -70,7 +70,7 @@ class get_link_atributes:
         elif link.startswith(("https://vod.visionias.in/player/index.php", "https://vod.visionias.in/player_v2/index.php")):
             url = ParseLink.vision_m3u8_link(link, Q)
             return url
-        elif link.startswith(("https://covod.testbook.com/")):
+        elif link.startswith(("https://cpvod.testbook.com/")):
             url = ParseLink.classplus_link(link=link)
             return url
         elif link.startswith(("https://tencdn.classplusapp.com")):
